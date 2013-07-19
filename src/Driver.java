@@ -8,8 +8,10 @@ public class Driver {
 	
 	public Driver(){
 		System.out.println("Hello World!");
+		String str = EnterString();
 		
-		Display(EnterString());
+		Display(str);
+		Display(str.toUpperCase());
 	}
 
 	public void Display(String sentence){
