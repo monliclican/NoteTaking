@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Driver {
 
@@ -8,10 +9,16 @@ public class Driver {
 	public Driver(){
 		System.out.println("Hello World!");
 		
-		Display("This is Dog.");
+		Display(EnterString());
 	}
 
 	public void Display(String sentence){
 		System.out.println(sentence);
+	}
+	
+	public String EnterString(){
+		Scanner s = new Scanner(System.in);
+		
+		return s.nextLine();
 	}
 }
