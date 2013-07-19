@@ -6,9 +6,9 @@ public class Driver {
 	}
 	
 	public Driver(){
-		System.out.println("Hello World!");
+		System.out.println("Hello Cat World!");
 		
-		Display("This is Dog.");
+		Display("Cat invades.");
 	}
 
 	public void Display(String sentence){
